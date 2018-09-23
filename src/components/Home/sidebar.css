@@ -17,12 +17,13 @@
 
 .Sidebar-Icon {
     margin: .5rem 0;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: #999;
+    /* cursor: pointer; */
 }
 
 .Sidebar-Icon:hover {
-    color: #555;
+    color: #333;
 }
 
 .Sidebar-Icon.off {
@@ -31,4 +32,10 @@
 
 .Sidebar-Icon.on {
     color: #33ca59;
+    animation: Power-logo-spin infinite 5s linear;
 }
+
+@keyframes Power-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
