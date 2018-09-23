@@ -17,7 +17,10 @@ export default () => (
             <FontAwesomeIcon className="Sidebar-Icon" icon={faHome} />
             <FontAwesomeIcon className="Sidebar-Icon" icon={faClock} />
             <FontAwesomeIcon className="Sidebar-Icon" icon={faExclamationCircle} />
-            <FontAwesomeIcon className="Sidebar-Icon" icon={faBell} />
+            <div className="Icon-wrapper">
+                <FontAwesomeIcon className="Sidebar-Icon" icon={faBell} />
+                <span class="Badge">6</span>
+            </div>
         </div>
         <div className="Sidebar-Group">
             <FontAwesomeIcon className="Sidebar-Icon off" icon={faPowerOff} />
