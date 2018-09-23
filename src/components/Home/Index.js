@@ -1,7 +1,14 @@
 import React, { Component } from "react";
+import Sidebar from "./Sidebar";
+import "./home.css";
 
-export default class Index extends Component {
+export default class Home extends Component {
     render() {
-        return <div>this works</div>;
+        return (
+            <div className="Home-main d-flex">
+                <Sidebar />
+                <p>foo</p>
+            </div>
+        );
     }
 }

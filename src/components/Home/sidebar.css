@@ -1,0 +1,34 @@
+.Sidebar {
+    display: flex;
+    padding: 1rem 0;
+    height: 100vh;
+    flex: 0 50px;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    justify-content: space-between;
+}
+
+.Sidebar-Group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Sidebar-Icon {
+    margin: .5rem 0;
+    font-size: 1.5rem;
+    color: #999;
+}
+
+.Sidebar-Icon:hover {
+    color: #555;
+}
+
+.Sidebar-Icon.off {
+    color: #ff9393;
+}
+
+.Sidebar-Icon.on {
+    color: #33ca59;
+}
